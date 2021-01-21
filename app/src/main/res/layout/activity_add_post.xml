@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AddPostActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:orientation="vertical">
+
+        <!--EditText: Input post title-->
+        <EditText
+            android:id="@+id/post_title_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="@string/enter_title"
+            android:singleLine="true"
+            android:background="@drawable/editextstyle"/>
+
+        <!--ImageView: Input post image -->
+        <ImageView
+            android:id="@+id/post_image_iv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:minHeight="200dp"/>
+
+        <!--EditText: Input post description-->
+        <EditText
+            android:id="@+id/post_description_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="@string/enter_description"
+            android:inputType="textCapSentences|textMultiLine"
+            android:minHeight="120dp"
+            android:gravity="start"
+            android:background="@drawable/editextstyle"/>
+
+        <!--Button: publish post-->
+        <Button
+            android:id="@+id/post_publish_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/upload"/>
+
+    </LinearLayout>
+
+</ScrollView>

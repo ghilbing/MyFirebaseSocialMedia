@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "992576880439",
+    "project_id": "myfirebasesocialmedia",
+    "storage_bucket": "myfirebasesocialmedia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992576880439:android:650f2a999bfad4edd5e4b2",
+        "android_client_info": {
+          "package_name": "com.hilbing.myfirebasesocialmedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992576880439-alqakn1vhv0hd9vecf259i57m3878idh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-erkZIFxO2WtvOBzT9exXkXqV2C0T5wQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992576880439-alqakn1vhv0hd9vecf259i57m3878idh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
